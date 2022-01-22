@@ -1,0 +1,114 @@
+@media screen and (min-device-width : 400px) and (max-device-width : 1180px) {
+    
+
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+
+.container-header{
+    background-color: #ff914d;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    height: 30%;
+    width: 105%;
+    position: relative; 
+} 
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    gap: 10px;
+
+ 
+}
+
+.menu:hover{
+    color: black;
+}
+
+.button:hover{
+    color: black;
+}
+.container-logo{
+    height: 40px;
+    width: 40px;
+
+}
+.menu{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+.button{
+    background-color: #ff914d;
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 22px; 
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    
+    
+}
+
+.container-section{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container-main{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+.logo1{
+    height: 60vh;
+    width: 108.4vw;
+    position: relative;
+}
+
+.container-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 25vw;
+    position: absolute;
+    top:40vh; left: 75vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 6px  rgb(85, 83, 83);
+    background-color: rgb(228, 217, 217);opacity: 0.8;
+    
+}
+
+
+.c-main-h2{
+    
+    
+    font-family: 'Sarala', sans-serif;
+    color: rgb(255, 123, 0);
+    font-weight: 400;
+    font-size: 20px; 
+    height: 80px;
+    
+    
+}
+    
+
+    }

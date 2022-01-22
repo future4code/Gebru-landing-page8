@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* font-family: 'Sarala', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    max-width: 100%;
+    
+}
+
+.container-geral{
+    background-image: url(logos/secçao-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    max-width: 100%;
+    min-width: 20vw;
+    
+    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.card{
+    margin-top: 150px;
+    background-color: rgb(228, 217, 217);
+    opacity: 0.8;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 15px 0px black; 
+    position: absolute;
+    left: 25%;
+}
+
+.h1-card{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff914d;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #ff914d;
+    outline: none;
+    min-width: 100px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 11px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid black;
+
+}
+
+.label-float label{
+    color:#ff914d;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-top: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.label-float input:focus + label{
+    font-size: 12px;
+    margin-top: 0;
+    color:black;
+}
+.button-div{
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+button{
+  
+    margin-top: 15px;    background-color: transparent;
+    padding: 6px;
+    border-radius: 10%;
+    border-color: #ff914d;
+    font-size: 16px ;
+    cursor: pointer;
+    color: #ff914d;
+    
+}
+ button:hover{
+     background-color: #ff914d;
+     color: white;
+ }
+
+ 
+ .esqueci-senha{
+     
+     color: #ff914d;
+     border-bottom: 1px solid #ff914d  
+ }
+
+ .esqueci-senha:hover{
+     color: black;
+ }
+
+ 
+.n-conta{
+    display: flex;
+    gap: 14px;
+    padding: 25px;
+}
+.n-conta > p{
+    color: #ff914d;
+}
+.cadastro{
+    color:#ff914d;
+    border-bottom: 1px solid #ff914d;
+}
+.cadastro:hover{
+    color: black;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-redesocial{
+    width: 30px;
+    height: 30px;
+    background-color: #ff914d;
+}
