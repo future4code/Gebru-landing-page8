@@ -9,8 +9,9 @@ body{
     background-color: #e08045;
 }
 .container {
-
+    display: flex;
     position: relative;
+    
     
     }
 .container > img{
@@ -84,7 +85,7 @@ footer{
         border-radius: 10pt;
         width: 450px;
         height: 66px;
-        
+        font-size: px;
         }
 .facebook{
     position: absolute;
