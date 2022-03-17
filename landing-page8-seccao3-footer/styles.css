@@ -1,0 +1,129 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    ;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e08045;
+}
+.container {
+    display: flex;
+    position: relative;
+    
+    
+    }
+.container > img{
+    width: 100vw;
+    height: 100vh;
+}
+      
+      
+.text-block {
+    position: absolute;
+    top: 266px;
+    left: 143px;
+    width: 900px ;
+    height: 293px;
+    background-color: #ded2d5;
+    color: #e08045;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 9pt;
+    }
+.text-block > h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48pt;
+}
+
+footer{
+    position: absolute;
+    background: #e08045;
+    height: 856px;
+    width: 100vw;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    font-size: 40pt;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.footer-content img{
+    position: absolute;
+    bottom: 0;
+    width: 570px;
+    height: 860px;
+}
+.footer-block {
+    position: absolute;
+    text-align: start;
+    top: 326px;
+    left: 62px;
+    width: 1050px;
+    height: 400px;
+    
+    }
+ .footer-block2 {
+        position: absolute;
+        text-align: center;
+        background-color: #e4d9d9  ;
+        color: #e08045;
+        top: 400px;
+        left: 550px;
+        border-radius: 10pt;
+        width: 450px;
+        height: 66px;
+        font-size: px;
+        }
+.facebook{
+    position: absolute;
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px ;
+    top: 596px;
+    left: 240px;
+}
+.instagram{
+    position: absolute;
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px ;
+    top: 596px;
+    left: 130px;
+}
+.linkedin{
+    position: absolute;
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px ;
+    top: 596px;
+    left: 186px;
+}
+.apple-store{
+    position: absolute;
+    text-align: center;
+    max-width: 100px;
+    max-height: 100px;
+    top: 577px;
+    left: 740px;
+}
+.google-store{
+    position: absolute;
+    text-align: center;
+    max-width: 110px;
+    max-height: 110px ;
+    top: 570px;
+    left: 610px;
+}
